@@ -34,9 +34,9 @@ class instabot():
        
     def login(self):
         id=self.driver.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[2]/div/label/input")
-        id.send_keys("abcd.com")
+        id.send_keys("ENTER YOUR USER NAME")
         password=self.driver.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[3]/div/label/input")
-        password.send_keys("****")
+        password.send_keys("ENTER PASSWORD")
         login=self.driver.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]/button")
         login.click()
         sleep(5)
