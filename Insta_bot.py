@@ -31,7 +31,6 @@ class instabot():
         except Exception:
             self.driver.close()
 
-       
     def login(self):
         id=self.driver.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[2]/div/label/input")
         id.send_keys("abcd.com")
