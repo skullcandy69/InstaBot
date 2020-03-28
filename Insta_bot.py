@@ -93,7 +93,7 @@ class instabot():
         sleep(2)
         sleep(2)
         self.driver.find_element_by_xpath(
-            "/html/body/div[1]/section/main/div/article/div[1]/div/div[1]/div["+str(i)+"]").click()
+            "/html/body/div[1]/section/main/div/div[2]/div/div[1]/div[1]/div/a/div[1]/div["+str(i)+"]").click()
         sleep(2)
         self.driver.find_element_by_xpath(
             "/html/body/div[4]/div[2]/div/article/div[2]/section[1]/span[1]/button").click()
